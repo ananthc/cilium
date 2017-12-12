@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Boot VMs') {
             steps {
-                sh './tests/start_vms.sh'
+                sh './tests/start_vms'
             }
         }
         stage ('Tests') {
